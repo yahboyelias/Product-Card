@@ -135,17 +135,4 @@ body {
 }
 /*attribution*/
 
-@media (max-width: 400px) {
-    .card-flex-container{
-        width: 343px;
-        height: 611px;
-        margin: 3.12rem auto 3.12rem auto;
-        max-height: 28.12rem;
-        display: flex;
-    }
-
-    .card-flex-container .card-img img {
-        border-top-left-radius: 0.62rem;
-        border-top-right-radius: 0.62rem;
-        }
 }
