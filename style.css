@@ -1,0 +1,151 @@
+body {
+    background-color: #F2EAE2;
+}
+
+/* Main container*/
+.card-flex-container{
+    width: 600px;
+    height: 450px;
+    position: center;
+    margin: 3.12rem auto 3.12rem auto;
+    display: flex;
+    max-height: 28.12rem;
+}
+/* Main container*/
+
+/* Card img*/
+.card-flex-container .card-img img {
+    height: 28.12rem;
+    border-top-left-radius: 0.62rem;
+    border-bottom-left-radius: 0.62rem;
+}
+/* Card img*/
+
+/* Card info div*/
+.card-desc {
+    background-color: white;
+    border-top-right-radius: 0.62rem;
+    border-bottom-right-radius: 0.62rem;
+    padding-left: 1.25rem;
+    padding-top: 0.93rem;
+    padding-right: 1.25rem;
+}
+/* Card info div*/
+
+/*Product description*/
+.card-flex-container h2 {
+    font-family: 'Fraunces', serif;
+    color: #1c232be3;
+    font-size: 2.18rem;
+    font-weight: bold;
+    text-align: left;
+    width: 13.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+
+
+.card-flex-container .main-desc {
+    font-family: 'Montserrat', sans-serif;
+    color: #5a6385;
+    width: 14.81rem;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: 0.87rem;
+    font-weight: 500;
+}
+
+
+
+.card-flex-container .perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    width: 5.75rem;
+    font-weight: 570;
+    height: 0.93rem;
+    letter-spacing: 0.3rem;
+    color: #6C7289;
+}
+/*Product description*/
+
+/*Prices & add to cart button*/
+.card-flex-container .prices {
+    display: flex;
+}
+
+.card-flex-container .prices .new-price {
+    font-family: 'Fraunces', serif;
+    color: #3D8168;
+    width: 7.93rem;
+    height: 2rem;
+    font-size: 2rem;
+    margin-top: 0.93rem;
+}
+
+.card-flex-container .old-price {
+    font-family: 'Montserrat', sans-serif;
+    color: #3D8168;
+    align-self: center;
+    padding-left: 1.25rem;
+    padding-top: 0.62rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1.18rem;
+}
+
+.card-flex-container a button {
+    width: 15rem;
+    height: 3rem;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 0.31rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.card-flex-container a button:hover {
+    cursor: pointer;
+    background-color: #1A4032;
+}
+
+/*Prices & add to cart button*/
+
+/*Add to cart Icon*/
+.card-flex-container a span img {
+    padding-right: 0.7rem;
+}
+/*Add to cart Icon*/
+
+/*old price strikethrough*/
+.prices s {
+    color: #6C7289;
+}
+/*old price strikethrough*/
+
+/*attribution*/
+.attribution {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+/*attribution*/
+
+@media (max-width: 400px) {
+    .card-flex-container{
+        width: 343px;
+        height: 611px;
+        margin: 3.12rem auto 3.12rem auto;
+        max-height: 28.12rem;
+        display: flex;
+    }
+
+    .card-flex-container .card-img img {
+        border-top-left-radius: 0.62rem;
+        border-top-right-radius: 0.62rem;
+        }
+}
